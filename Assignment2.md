@@ -10,4 +10,4 @@ P' v Q <=> P' v Q	    Communative
 
 ---------------------------------------------------------------------
 (Ǝx)A(x) ^ (Ǝx)B(x) -> (Ǝx)(A(x) ^ B(x))
-Some apples and some bananas are sometimes apples and bananas 
+If something is edible and something is food then that thing is edible and food 
