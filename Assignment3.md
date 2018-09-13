@@ -34,7 +34,7 @@ Neither
  (p ∧ q) → r   <=>    p → (q → r )
 ¬(p ^ q) v r   <=>   ¬p v (¬q v r)           Implicationx3
 (¬p v ¬q) v r  <=>   ¬p v (¬q v r)           De Morgan's Law
-(¬p v ¬q) v r  <=>  (¬p v ¬q) v r            Asspciative 
+(¬p v ¬q) v r  <=>  (¬p v ¬q) v r            Associative 
 ```
 ```
  (q ∨ r) → p         <=> (q → p)∧(r → p)
@@ -45,4 +45,8 @@ Neither
 
 **Part 4**
 ```
-
+There exists a city where all travelers and residents dont love where they live but love other cities
+```
+```
+∀x∀y∀z(City(x)∧Traveler(y)) → (¬Loves(y,x))
+```
