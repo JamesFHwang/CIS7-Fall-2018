@@ -48,5 +48,35 @@ Neither
 There exists a city where all travelers and residents dont love where they live but love other cities
 ```
 ```
-∀x∀y∀z(City(x)∧Traveler(y)) → (¬Loves(y,x))
+∀x∀y(City(x) ^ Traveler(y) ^ lives(y,x)) → (¬Loves(y,x))
+```
+
+**Part 5**
+```
+p → (q ∧ r), s → r , r → p
+
+s             Assumption
+s  -> r       Premise
+r             Modus Ponen
+r  -> p       Premise
+p             Modus Ponen
+p  -> (q ^ r) Premise
+s <=> p       Modus Ponenx2
+s  -> q
+
+s → q
+
+```
+```
+¬(r ∨ s), ¬p → s, p → q
+
+¬(r v s)    Premise
+¬r ^ ¬s     De Morgan's Law
+¬s
+¬p -> s     Premise
+p -> ¬s     Modus Tollens
+p      Modus Ponens
+q      Modus Ponens
+
+q
 ```
