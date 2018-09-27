@@ -1,6 +1,6 @@
-```
+**
 Part 1
-```
+**
 √2
 Definition of Integer
 Definition of rational numbers
@@ -30,9 +30,9 @@ If n squared is odd, then n is odd
 True
 ```
 
-```
+**
 Part 2
-```
+**
 Prove by induction that 1 + 5 + 9 + ... + (4n-3) = n(2n-1)
 ```
 P(n) = (4n - 3)
