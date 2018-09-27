@@ -6,23 +6,29 @@ Definition of Integer
 Definition of rational numbers
 
 If n = 25, 100, or 169, then n is a perfect square and is the sum of two perfect squares.
+```
 5  * 5  = 25  = (3 * 3)   + (4 * 4)
 10 * 10 = 100 = (8 * 8)   + (6 * 6)
 13 * 13 = 169 = (12 * 12) + (5 * 5)
 True
+```
 
-The sum of two odd integers is even. 
+The sum of two odd integers is even.
+```
 Hint: By definition, even integers can be expressed as 2n, thus odd integers can be expressed as 2n + 1
 (2n + 1) + (2n + 1)
 (4n + 2) = (2n)
 Even = 2n
+```
 
 The sum of an even integer and it's square is even
 If n squared is odd, then n is odd
+```
 (2n + 1)² = 4n² + 4n + 1
 (2n + 1)² = 4n(n + 1) + 1
 (2n + 1)² = (2n + 1)
 True
+```
 
 ```
 Part 2
