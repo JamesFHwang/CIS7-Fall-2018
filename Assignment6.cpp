@@ -1,4 +1,5 @@
-#include<iostream>
+#include <stdafx.h>
+#include <iostream>
 #include <algorithm> 
 #include <chrono> 
 using namespace std;
@@ -24,15 +25,15 @@ int main()
 		cout << "Please enter a second number" << endl;
 		cin >> b;
 
-		if ( a > 0 && b > 0)
+		if (a > 0 && b > 0)
 		{
 			if (a < b)
 			{
-				swap = b;
+				swap = a;
 				a = b;
-				a = swap;
+				b = swap;
 			}
-			
+
 			auto start = high_resolution_clock::now();
 			greatestCommonDivisor = GCD(a, b);
 			auto stop = high_resolution_clock::now();
@@ -57,23 +58,16 @@ int main()
 			cout << "Please Try Again." << endl;
 			cout << endl;
 		}
-	
+
 	}
 	return 0;
 }
 
 
-int GCD( int m, int n )
+int GCD(int m, int n)
 {
-	int r;
-	do
-	{
-		r = m % n;
-		if (r == 0)
-			break;
-		m = n;
-		n = r;
-	} while (true);
-
-	return n;
+	if (n != 0)
+		return GCD(n, m % n);
+	else
+		return m;
 }
