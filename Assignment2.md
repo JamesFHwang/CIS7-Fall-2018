@@ -16,8 +16,3 @@ P' v Q <=> P' v Q	    Communative
 If something is edible and something is food then that thing is edible and food 
 ```
 
-```
-Parenthesis Implementation
-
-
-```
